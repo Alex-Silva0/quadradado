@@ -4,11 +4,14 @@
 
 Quadradado é um jogo simples desenvolvido com React e TypeScript, mais informações sobre o jogo no próprio site clicando no ícone de ajuda.
 
+Preview em [https://quadradado.onrender.com](https://quadradado.onrender.com)
+
 ## 📚 Tecnologias Utilizadas
 
 - **React**: Biblioteca para construção de interfaces de usuário.
 - **TypeScript**: Superset de JavaScript que adiciona tipagem estática ao projeto.
 - **ESLint**: Ferramenta para padronização e limpeza do código.
+- **Redux**: Para gerenciar os estados da aplicação.
 
 ## ✨ Features
 
