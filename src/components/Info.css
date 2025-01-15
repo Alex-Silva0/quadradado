@@ -1,0 +1,33 @@
+#main-info-wrapper {
+    padding: 0.93rem;
+    max-width: 300px;
+}
+
+.amount-bold {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.words-left {
+    font-style: italic;
+}
+
+.words-found {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.word-found {
+    font-size: 1.3em;
+    color: var(--high-contrast);
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    #main-info-wrapper {
+        display: none;
+    }
+}

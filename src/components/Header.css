@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--primary);
+    color: var(--header-text-color);
+    user-select: none;
+    font-size: var(--header-font-size);
+}
+  
+.header-btn {
+    cursor: pointer;
+    display: flex;
+}

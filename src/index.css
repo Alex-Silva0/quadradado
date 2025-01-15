@@ -1,0 +1,61 @@
+:root {
+  --background: #242424;
+  --primary: #0D64E6;
+  --high-contrast: #fff;
+
+  --default-text-color: rgba(255, 255, 255, 0.87);
+  
+  --letter-background: #e0e0e0;
+  /* --board-text-color: rgb(26, 26, 26); */
+
+  --letter-text-color: #000;
+  --selecting: #0D64E6;
+
+  --header-text-color: #f3f3f3;
+  --header-font-size: 1.8em;
+  --default-line-height: 1.5;
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+      --background: #f3f3f3;
+      --high-contrast: #000;
+      --default-text-color: rgba(0, 0, 0, 0.95);
+  }
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  color: var(--default-text-color);
+  background-color: var(--background);
+
+  font-family: RobotoWeb, Roboto, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: var(--default-line-height);
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+  color: inherit;
+  line-break: anywhere;
+}
+
+svg {
+  width: 1em;
+  height: 1em;
+  /* fill: var(--high-contrast); */
+}
+
+.overflow-y {
+  overflow-y: auto;
+}

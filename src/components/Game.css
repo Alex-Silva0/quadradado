@@ -1,0 +1,55 @@
+#main-game {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+#words-count-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#bonus-words-count {
+    font-size: 0.7em;
+    margin-left: 0.5em;
+}
+
+#message-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 1.7rem;
+    margin: 0.5rem;
+}
+
+#message {
+    text-align: center;
+    animation: fade-in-out 2s linear;
+    animation-fill-mode: forwards;
+    margin: 0 15px;
+}
+
+#message > .word {
+    font-size: 2.5rem;
+}
+
+#message.fading {
+    opacity: 0;
+    transition: opacity 0.3s ease-in 0.3s;
+}
+
+@media only screen and (max-width: 350px) {
+    #message-wrapper {
+        margin-bottom: 3%;
+    }
+
+    #words-count-wrapper {
+        font-size: 8vw;
+    }
+}

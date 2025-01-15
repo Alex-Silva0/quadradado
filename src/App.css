@@ -1,0 +1,6 @@
+main {
+  display: flex;
+  padding: 20px;
+  height: calc(100vh - var(--header-font-size) * var(--default-line-height));
+  box-sizing: border-box;
+}
